@@ -10,7 +10,7 @@ param(
     [switch]$AnalyzeAll
 )
 
-function Check-Log {
+function CheckLog {
     param(
         [string]$Directory,
         [int]$Lines = 100,
@@ -76,14 +76,14 @@ function Check-Log {
                 
                 # First try the error code map
                 if ($errorCodeMap.ContainsKey($errorCode)) {
-                    $decodedMsg = "   Summary: $errorCode - $($errorCodeMap[$errorCode])"
+                    $decodedMsg = "   Error Code: $errorCode `n   Message: $($errorCodeMap[$errorCode])"
                 }
                 # Fall back to Win32Exception
                 else {
                     try {
                         $errorInt = [Convert]::ToInt32($errorCode.Replace("0x", ""), 16)
                         $errorMsg = [System.ComponentModel.Win32Exception]$errorInt
-                        $decodedMsg = "   Summary: $errorCode - $($errorMsg.Message)"
+                        $decodedMsg = "   Error Code: $errorCode `n   Message: $($errorMsg.Message)"
                     }
                     catch {
                         $decodedMsg = "   [Could not decode error: $errorCode]"
