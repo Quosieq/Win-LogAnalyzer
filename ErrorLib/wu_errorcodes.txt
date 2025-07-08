@@ -1,0 +1,681 @@
+00000002	Permission to access the Windows Update service was denied. Log in as an administrator, or grant permission in the User Account Control dialog, to use Legacy Update.
+00000003	Network policy settings prevent you from using this website to get updates for your computer. If you believe you have received this message in error, please contact your system administrator.
+00000004	The ActiveX control is having trouble loading. If you see an Information Bar, select to install the Legacy Update ActiveX control.
+00000006	Windows Update requires Windows 2000 Service Pack 3 or later. Update to Service Pack 3 or 4 to use Legacy Update.
+00000007	The system must be restarted to complete installation of updates.
+00000009	Loading the search results timed out.
+00000011	The ActiveX control is having trouble loading. If you see an Information Bar, select to install the Windows Update ActiveX control.
+00000013	Your Windows software has been installed with an invalid product key. Product keys are used to identify and support genuine Windows software. To install updates for Windows, including security updates, you must first activate Windows using a valid product key.
+00000014	To install updates for Windows, including security updates, you must first activate your copy of Windows.
+00000015	To install updates for Windows, including security and other important updates for Windows, you must confirm your Windows software is genuine. You might need to provide a valid product key.
+00000016	Windows Genuine Advantage detected an unknown error.
+00000017	The Product ID for your copy of Windows is invalid or not available. To install updates for Windows, including security updates, you must obtain a valid product ID.
+00000018	The Automatic Updates service is disabled on your computer. Use Start > All Programs > Administrative Tools > Computer Management to fix this.
+800A0005	Legacy Update has successfully deregistered your computer from a Windows Server Update Services (WSUS) server. Check for updates again to continue.
+00240001	Windows Update Agent was stopped successfully.
+00240002	Windows Update Agent updated itself.
+00240003	Operation completed successfully but there were errors applying the updates.
+00240004	A callback was marked to be disconnected later because the request to disconnect the operation came while a callback was executing.
+00240005	The system must be restarted to complete installation of the update.
+00240006	The update to be installed is already installed on the system.
+00240007	The update to be removed is not installed on the system.
+00240008	The update to be downloaded has already been downloaded.
+00240009	The operation completed successfully, but some updates were skipped because the system is running on batteries.
+0024000A	The update to be reverted is not present on the system.
+00240010	The operation is skipped because the update service does not support the requested search criteria.
+00242015	The installation operation for the update is still in progress.
+00242016	The actual download size has been calculated by the handler.
+00245001	No operation was required by the server-initiated healing server response.
+00246001	The update to be downloaded is already being downloaded.
+00247101	Metadata verification was skipped by enforcement mode.
+00247102	A server configuration refresh resulted in metadata signature verification to be ignored.
+00248001	Search operation completed successfully but one or more services were shedding load.
+00248002	There was no need to retrieve an AAD device ticket.
+80072EE1	No more handles could be generated at this time.
+80072EE2	The request has timed out.
+80072EE3	An extended error was returned from the server. This is typically a string or buffer containing a verbose error message. Call InternetGetLastResponseInfo to retrieve the error text.
+80072EE4	An internal error has occurred.
+80072EE5	The URL is invalid.
+80072EE6	The URL scheme could not be recognized, or is not supported.
+80072EE7	The server name could not be resolved.
+80072EE8	The requested protocol could not be located.
+80072EE9	A request to InternetQueryOption or InternetSetOption specified an invalid option value.
+80072EEA	The length of an option supplied to InternetQueryOption or InternetSetOption is incorrect for the type of option specified.
+80072EEB	The requested option cannot be set, only queried.
+80072EEC	WinINet support is being shut down or unloaded.
+80072EED	The request to connect and log on to an FTP server could not be completed because the supplied user name is incorrect.
+80072EEE	The request to connect and log on to an FTP server could not be completed because the supplied password is incorrect.
+80072EEF	The request to connect and log on to an FTP server failed.
+80072EF0	The requested operation is invalid.
+80072EF1	The operation was canceled, usually because the handle on which the request was operating was closed before the operation completed.
+80072EF2	The type of handle supplied is incorrect for this operation.
+80072EF3	The requested operation cannot be carried out because the handle supplied is not in the correct state.
+80072EF4	The request cannot be made via a proxy.
+80072EF5	A required registry value could not be located.
+80072EF6	A required registry value was located but is an incorrect type or has an invalid value.
+80072EF7	Direct network access cannot be made at this time.
+80072EF8	An asynchronous request could not be made because a zero context value was supplied.
+80072EF9	An asynchronous request could not be made because a callback function has not been set.
+80072EFA	The required operation could not be completed because one or more requests are pending.
+80072EFB	The format of the request is invalid.
+80072EFC	The requested item could not be located.
+80072EFD	The attempt to connect to the server failed.
+80072EFE	The connection with the server has been terminated. (Note: This error is common when the Windows Update Agent is out of date. Refer to the Legacy Update homepage for solutions.)
+80072EFF	The connection with the server has been reset.
+80072F00	The function needs to redo the request.
+80072F01	The request to the proxy was invalid.
+80072F02	A user interface or other blocking operation has been requested.
+80072F04	The request failed because the handle already exists.
+80072F05	SSL certificate date that was received from the server is bad. The certificate is expired.
+80072F06	SSL certificate common name (host name field) is incorrect for example, if you entered www.server.com and the common name on the certificate says www.different.com.
+80072F07	The application is moving from a non-SSL to an SSL connection because of a redirect.
+80072F08	The application is moving from an SSL to an non-SSL connection because of a redirect.
+80072F09	The content is not entirely secure. Some of the content being viewed may have come from unsecured servers.
+80072F0A	The application is posting and attempting to change multiple lines of text on a server that is not secure.
+80072F0B	The application is posting data to a server that is not secure.
+80072F0C	The server is requesting client authentication.
+80072F0D	The function is unfamiliar with the Certificate Authority that generated the server's certificate.
+80072F0E	Client authorization is not set up on this computer.
+80072F0F	The application could not start an asynchronous thread.
+80072F10	The function could not handle the redirection, because the scheme changed (for example, HTTP to FTP).
+80072F11	Another thread has a password dialog box in progress.
+80072F12	The dialog box should be retried.
+80072F14	The data being submitted to an SSL connection is being redirected to a non-SSL connection.
+80072F15	The request requires a CD-ROM to be inserted in the CD-ROM drive to locate the resource requested.
+80072F16	The requested resource requires Fortezza authentication.
+80072F17	The SSL certificate contains errors.
+80072F18	The SSL certificate was not revoked.
+80072F19	Revocation of the SSL certificate failed.
+80072F76	The requested header could not be located.
+80072F77	The server did not return any headers.
+80072F78	The server response could not be parsed.
+80072F79	The supplied header is invalid.
+80072F7A	The request made to HttpQueryInfo is invalid.
+80072F7B	The header could not be added because it already exists.
+80072F7C	The redirection failed because either the scheme changed (for example, HTTP to FTP) or all attempts made to redirect failed (default is five attempts).
+80072F7D	The application experienced an internal error loading the SSL libraries.
+80072F7E	The function was unable to cache the file.
+80072F7F	The required protocol stack is not loaded and the application cannot start WinSock.
+80072F80	The HTTP request was not redirected.
+80072F81	The HTTP cookie requires confirmation.
+80072F82	The HTTP cookie was declined by the server.
+80072F83	The Internet connection has been lost.
+80072F84	The website or server indicated is unreachable.
+80072F85	The designated proxy server cannot be reached.
+80072F86	There was an error in the automatic proxy configuration script.
+80072F87	The automatic proxy configuration script could not be downloaded. The INTERNET_FLAG_MUST_CACHE_REQUEST flag was set.
+80072F88	The redirection requires user confirmation.
+80072F89	The SSL certificate is invalid.
+80072F8A	The SSL certificate was revoked.
+80072F8B	The function failed due to a security check.
+80072F8C	Initialization of the WinINet API has not occurred. Indicates that a higher-level function, such as InternetOpen, has not been called yet.
+80072F8D	Not currently implemented.
+80072F8E	The MS-Logoff digest header has been returned from the website. This header specifically instructs the digest package to purge credentials for the associated realm. This error will only be returned if INTERNET_ERROR_MASK_LOGIN_FAILURE_DISPLAY_ENTITY_BODY option has been set; otherwise, ERROR_INTERNET_LOGIN_FAILURE is returned.
+80072F8F	WinINet failed to perform content decoding on the response. For more information, see the Content Encoding topic.
+800B0105	A certificate contains an unknown extension that is marked "critical."
+800B0114	The certificate has a name that is not valid. The name is either not included in the permitted list or is explicitly excluded.
+800B0113	The certificate has a policy that is not valid.
+800B0107	A parent of a given certificate in fact did not issue that child certificate.
+800B0108	A certificate is missing or has an empty value for an important field, such as a subject or issuer name.
+800B0104	A path length constraint in the certification chain has been violated.
+800B0112	A certification chain processed correctly, but one of the CA certificates is not trusted by the policy provider.
+80092012	The revocation function was unable to check revocation for the certificate.
+80096010	The digital signature of the object did not verify.
+80096019	The basic constraint extension of a certificate has not been observed.
+80096004	The signature of the certificate cannot be verified.
+80096003	One of the counter signatures was not valid.
+800B0111	The certificate was explicitly marked as untrusted by the user.
+8009601E	The certificate does not meet or contain the Authenticode financial extensions.
+80096002	The certificate for the signer of the message is not valid or not found.
+80096001	A system-level error occurred while verifying trust.
+80096005	The time stamp signature or certificate could not be verified or is malformed.
+00200017	A subset of the job's files transferred successfully before the IBackgroundCopyJob::Complete method was called. Those that were not complete were deleted.
+0020001A	Unable to delete all temporary files associated with the job.
+00200055	The configuration preference has been saved successfully, but the preference will not be used because a configured Group Policy setting overrides the preference.
+80200001	The requested job was not found.
+80200002	The requested action is not allowed in the current job state.
+80200003	The job must contain one or more files before you can resume the job.
+80200004	File information is not available because the error is not associated with a local or remote file.
+80200005	Protocol information is not available because the error is not associated with the specified transfer protocol.
+8020000D	The destination file system volume, specified in the local file name, is locked.
+8020000E	The destination volume, specified in the local file name, has changed. For example, the original floppy disk has been replaced with a different floppy disk.
+8020000F	Error information is only available when the state of the job is BG_JOB_STATE_ERROR. The error information is not available after BITS begins transferring the job's data or the client exits.
+80200010	The network adapter is inactive or disconnected. All jobs are placed in the BG_JOB_STATE_TRANSIENT_ERROR state.
+80200011	The server did not return the file size. BITS only transfers static content and requires the HTTP server to return the Content-Length header. The transfer request fails if the URL points to dynamic content.
+80200012	The server does not support the HTTP/1.1 protocol.
+80200013	The server does not support the Content-Range header. Typically, you receive this error when you try to download dynamic content. You can also receive this error if an intermediate proxy is removing the Content-Range or Content-Length header.
+80200014	Remote use of BITS is not supported. For more information, see Users and Network Connections.
+80200015	The network drive mapping for the local file is different for the current owner than for the previous owner.
+80200016	The new owner has insufficient permissions to the temporary job files.
+80200018	The HTTP proxy list is too long. The list must not exceed 32 KB.
+80200019	The HTTP proxy bypass list is too long. The list must not exceed 32 KB.
+8020001C	You cannot add more than one file to an upload job.
+8020001D	The contents of the local file changed after the transfer process began. The contents of the local file cannot change after the transfer process begins on an upload or upload-reply job.
+80200020	The size of the upload file exceeds the maximum allowed upload size specified on the server.
+80200021	The specified string is too long.
+80200022	The client and server were unable to negotiate a protocol to use for the upload job.
+80200023	Scripting or execute permissions are enabled on the IIS virtual directory associated with the job. To upload files to the virtual directory, disable the scripting and execute permissions on the virtual directory.
+80200025	The user name cannot exceed 300 characters.
+80200026	The password cannot exceed 65535 characters.
+80200027	The specified authentication target is not valid.
+80200028	The specified authentication scheme is not valid.
+8020002B	The specified byte range is invalid. The byte range must exist within the specified remote file.
+8020002C	The list of byte ranges contains overlapping or duplicate ranges, which are not supported.
+8020003E	Group Policy settings prevent background jobs from running at this time. For details, see the MaxInternetBandwidth policy.
+8020003F	Run-time error that indicates the proxy list or proxy bypass list that you specified using the IBackgroundCopyJob::SetProxySettings method is invalid.
+80200040	The format of the supplied security credentials is not valid.
+80200042	The cache record has been deleted. The attempt to update it has been abandoned.
+80200045	A Universal Plug and Play (UPnP) error has occurred. Please check your Internet Gateway Device.
+80200047	Peer-caching is disabled.
+80200048	The cache record is in use and cannot be changed or deleted. Try again after a few seconds.
+80200049	The job count for the user has exceeded the per user job limit set by the MaxJobsPerUser Group Policy setting.
+80200050	The job count for the computer has exceeded the per computer job limit set by the MaxJobsPerMachine Group Policy setting.
+80200051	The file count for the job has exceeded the per job file limit set by the MaxFilesPerJob Group Policy setting.
+80200052	The range count for the file has exceeded the per file range limit set by the MaxRangesPerFile Group Policy setting.
+80200053	The application requested data from a website, but the response was not valid. For details, use Event Viewer to view the Application Logs\Microsoft\Windows\Bits-client\Operational log.
+80200054	BITS timed out downloading the job. The download did not complete within the maximum download time set on the job or the MaxDownloadTime Group Policy setting.
+80190190	The server could not process the transfer request because the syntax of the remote file name is invalid.
+80190191	The user does not have permission to access the remote file. The requested resource requires user authentication.
+80190194	The requested URL does not exist on the server. In IIS 7, this error can indicate that BITS uploads are not enabled on the virtual directory (vdir) on the server, or that the upload size exceeds the maximum upload limit.
+80190197	The user does not have permission to access the proxy. The proxy requires user authentication.
+8019019E	The server cannot process the transfer request. The Uniform Resource Identifier (URI) in the remote file name is longer than the server can interpret.
+801901F5	The server does not support the functionality required to fulfill the request. In IIS 6, this error indicates that BITS uploads are not enabled on the virtual directory (vdir) on the server.
+801901F7	The service is temporarily overloaded and cannot process the request. Resume the job at a later time.
+801901F8	The transfer request timed out while waiting for a gateway. Resume the job at a later time.
+801901F9	The server does not support the HTTP protocol version specified in the remote file name.
+800F0800	Reserved error (|); there is no message for this error
+800F0801	Session not initialized
+800F0802	Session already initialized
+800F0803	Invalid method argument
+800F0804	The update could not be found or could not be opened
+800F0805	The update package was not a valid CSI update
+800F0806	The operation could not be complete due to locked resources
+800F0807	The component referenced is not separately installable
+800F0808	The image location specified could not be accessed
+800F0809	Attempt to get non-existent array element
+800F080A	Session object updated, must recreate session
+800F080B	Requested property is not supported
+800F080C	Named update not present in package
+800F080D	Invalid attribute or element name encountered
+800F080E	Multiple attributes have the same name
+800F080F	Multiple elements have the same name
+800F0810	Required attributes are missing
+800F0811	Required attributes are missing
+800F0812	Required attributes are missing
+800F0813	Install state value not acceptable
+800F0814	Invalid setting configuration value
+800F0815	Invalid cardinality
+800F0816	Job state for DPX has been saved
+800F0817	Package was uninstalled and is no longer accessible
+800F0818	Container package points to a package manifest whose identity doesn’t match the identity specified
+800F0819	Update name is duplicated in package.
+800F081A	The driver operations key is corrupt or invalid
+800F081B	The processor architecture specified is not supported
+800F081C	Watchlist: not able to reach steady state after too many attempts.
+800F081D	Watchlist: cycle appears when planning component intended state.
+800F081E	The package is not applicable
+800F081F	Source for package or file not found, ResolveSource() unsuccessful
+800F0820	User cancel, IDCANCEL returned by ICbsUIHandler method except Error()
+800F0821	Client abort, IDABORT returned by ICbsUIHandler method except Error()
+800F0822	Component update without specifying <updateComponent> in package manifest.
+800F0823	Package needs a newer version of the servicing stack.
+800F0824	Package source not in list.
+800F0825	Package cannot be uninstalled.
+800F0826	Package failed to install because another pended package failed.
+800F0827	Servicing stack updated, aborting
+800F0900	Unexpected internal XML parser error.
+800F0901	In a given package, only one <updateComponent> is allowed for a component family.
+80240001	Windows Update Agent was unable to provide the service.
+80240002	The maximum capacity of the service was exceeded.
+80240003	An ID cannot be found.
+80240004	The object could not be initialized.
+80240005	The update handler requested a byte range overlapping a previously requested range.
+80240006	The requested number of byte ranges exceeds the maximum number (2^31 - 1).
+80240007	The index to a collection was invalid.
+80240008	The key for the item queried could not be found.
+80240009	Another conflicting operation was in progress. Some operations such as installation cannot be performed twice simultaneously.
+8024000A	Cancellation of the operation was not allowed.
+8024000B	Operation was cancelled.
+8024000C	No operation was required.
+8024000D	Windows Update Agent could not find required information in the update's XML data.
+8024000E	Windows Update Agent found invalid information in the update's XML data.
+8024000F	Circular update relationships were detected in the metadata.
+80240010	Update relationships too deep to evaluate were evaluated.
+80240011	An invalid update relationship was detected.
+80240012	An invalid registry value was read.
+80240013	Operation tried to add a duplicate item to a list.
+80240014	Updates requested for install are not installable by caller.
+80240016	Operation tried to install while another installation was in progress or the system was pending a mandatory restart.
+80240017	Operation was not performed because there are no applicable updates.
+80240018	Operation failed because a required user token is missing.
+80240019	An exclusive update cannot be installed with other updates at the same time.
+8024001A	A policy value was not set.
+8024001B	The operation could not be performed because the Windows Update Agent is self-updating.
+8024001D	An update contains invalid metadata.
+8024001E	Operation did not complete because the service or system was being shut down.
+8024001F	Operation did not complete because the network connection was unavailable.
+80240020	Operation did not complete because there is no logged-on interactive user.
+80240021	Operation did not complete because it timed out.
+80240022	Operation failed for all the updates.
+80240023	The license terms for all updates were declined.
+80240024	There are no updates.
+80240025	Group Policy settings prevented access to Windows Update.
+80240026	The type of update is invalid.
+80240027	The URL exceeded the maximum length.
+80240028	The update could not be uninstalled because the request did not originate from a WSUS server.
+80240029	Search may have missed some updates before there is an unlicensed application on the system.
+8024002A	A component required to detect applicable updates was missing.
+8024002B	An operation did not complete because it requires a newer version of server.
+8024002C	A delta-compressed update could not be installed because it required the source.
+8024002D	A full-file update could not be installed because it required the source.
+8024002E	Access to an unmanaged server is not allowed.
+8024002F	Operation did not complete because the DisableWindowsUpdateAccess policy was set.
+80240030	The format of the proxy list was invalid.
+80240031	The file is in the wrong format.
+80240032	The search criteria string was invalid.
+80240033	License terms could not be downloaded.
+80240034	Update failed to download.
+80240035	The update was not processed.
+80240036	The object's current state did not allow the operation.
+80240037	The functionality for the operation is not supported.
+80240038	The downloaded file has an unexpected content type.
+80240039	Agent is asked by server to resync too many times.
+80240040	WUA API method does not run on Server Core installation.
+80240041	Service is not available while sysprep is running.
+80240042	The update service is no longer registered with AU.
+80240043	There is no support for WUA UI.
+80240044	Only administrators can perform this operation on per-machine updates.
+80240045	A search was attempted with a scope that is not currently supported for this type of search.
+80240046	The URL does not point to a file.
+80240047	The update could not be reverted.
+80240048	The featured update notification info returned by the server is invalid.
+80240049	The data is out of range.
+8024004A	Windows Update agent operations are not available while OS setup is running.
+8024004B	An orphaned downloadjob was found with no active callers.
+8024004C	An update could not be installed because the system battery power level is too low.
+8024004D	The downloaded infrastructure file is incorrectly formatted.
+8024004E	The infrastructure file must be downloaded using strong SSL.
+8024004F	A discovery call contributed to a non-zero operation count at idle timer shutdown.
+80240050	A search call contributed to a non-zero operation count at idle timer shutdown.
+80240051	A download call contributed to a non-zero operation count at idle timer shutdown.
+80240052	An install call contributed to a non-zero operation count at idle timer shutdown.
+80240053	An unspecified call contributed to a non-zero operation count at idle timer shutdown.
+80240054	An interactive user cancelled this operation, which was started from the Windows Update Agent UI.
+80240055	Automatic Updates cancelled this operation because it applies to an update that is no longer applicable to this computer.
+80240056	This version or edition of the operating system doesn't support the needed functionality.
+80240057	The requested update download or install handler, or update applicability expression evaluator, is not provided by this Agent plugin.
+80240058	The requested serialization version is not supported.
+80240059	The current network cost does not meet the conditions set by the network cost policy.
+8024005A	The call is cancelled because it applies to an update that is hidden (no longer applicable to this computer).
+8024005B	The call is cancelled because it applies to an update that is invalid (no longer applicable to this computer).
+8024005C	The specified volume id is invalid.
+8024005D	The specified volume id is unrecognized by the system.
+8024005E	The installation extended error code is not specified.
+8024005F	The installation extended error code is set to general fail.
+80240060	A service registration call contributed to a non-zero operation count at idle timer shutdown.
+80240061	Signature validation of the file fails to find valid SHA2+ signature on MS signed payload.
+80240062	The update is not in the servicing approval list.
+80240063	The search call was cancelled by another interactive search against the same service.
+80240064	Resume of install job not allowed due to another installation in progress.
+80240065	Resume of install job not allowed because job is not suspended.
+80240066	User context passed to installation from caller with insufficient privileges.
+80240067	Operation is not allowed because the device is in DC (Direct Current) and DS (Disconnected Standby).
+80240068	The property could not be evaluated.
+80240FFF	An operation failed due to reasons not covered by another error code.
+80241001	Search may have missed some updates because the Windows Installer is less than version 3.1.
+80241002	Search may have missed some updates because the Windows Installer is not configured.
+80241003	Search may have missed some updates because policy has disabled Windows Installer patching.
+80241004	An update could not be applied because the application is installed per-user.
+80241005	Search may have missed some updates because the Windows Installer is less than version 3.1.
+80241FFF	Search may have missed some updates because there was a failure of the Windows Installer.
+80242000	A request for a remote update handler could not be completed because no remote process is available.
+80242001	A request for a remote update handler could not be completed because the handler is local only.
+80242002	A request for an update handler could not be completed because the handler could not be recognized.
+80242003	A remote update handler could not be created because one already exists.
+80242004	A request for the handler to install (uninstall) an update could not be completed because the update does not support install (uninstall).
+80242005	An operation did not complete because the wrong handler was specified.
+80242006	A handler operation could not be completed because the update contains invalid metadata.
+80242007	An operation could not be completed because the installer exceeded the time limit.
+80242008	An operation being done by the update handler was cancelled.
+80242009	An operation could not be completed because the handler-specific metadata is invalid.
+8024200A	A request to the handler to install an update could not be completed because the update requires user input.
+8024200B	The installer failed to install (uninstall) one or more updates.
+8024200C	The update handler should download self-contained content rather than delta-compressed content for the update.
+8024200D	The update handler did not install the update because it needs to be downloaded again.
+8024200E	The update handler failed to send notification of the status of the install (uninstall) operation.
+8024200F	The file names contained in the update metadata and in the update package are inconsistent.
+80242010	The update handler failed to fall back to the self-contained content.
+80242011	The update handler has exceeded the maximum number of download requests.
+80242012	The update handler has received an unexpected response from CBS.
+80242013	The update metadata contains an invalid CBS package identifier.
+80242014	The post-reboot operation for the update is still in progress.
+80242015	The result of the post-reboot operation for the update could not be determined.
+80242016	The state of the update after its post-reboot operation has completed is unexpected.
+80242017	The OS servicing stack must be updated before this update is downloaded or installed.
+80242018	A callback installer called back with an error.
+80242019	The custom installer signature did not match the signature required by the update.
+8024201A	The installer does not support the installation configuration.
+8024201B	The targeted session for install is invalid.
+8024201C	The handler failed to decrypt the update files.
+8024201D	The update handler is disabled until the system reboots.
+8024201E	The AppX infrastructure is not present on the system.
+8024201F	The update cannot be committed because it has not been previously installed or staged.
+80242020	The specified volume is not a valid AppX package volume.
+80242021	The configured default storage volume is unavailable.
+80242022	The volume on which the application is installed is unavailable.
+80242023	The specified package family is not present on the system.
+80242024	Unable to find a package volume marked as system.
+80242025	UA does not support the version of OptionalSessionInfo.
+80242026	This operation cannot be completed. You must install the baseline update(s) before you can install this update.
+80242FFF	An update handler error not covered by another WU_E_UH_* code.
+80243001	The results of download and installation could not be read from the registry due to an unrecognized data format version.
+80243002	The results of download and installation could not be read from the registry due to an invalid data format.
+80243003	The results of download and installation are not available; the operation may have failed to start.
+80243004	A failure occurred when trying to create an icon in the taskbar notification area.
+80243FFD	Unable to show UI when in non-UI mode; WU client UI modules may not be installed.
+80243FFE	Unsupported version of WU client UI exported functions.
+80243FFF	There was a user interface error not covered by another WU_E_AUCLIENT_* error code.
+80244000	WU_E_PT_SOAPCLIENT_* error codes map to the SOAPCLIENT_ERROR enum of the ATL Server Library.
+80244001	SOAPCLIENT_INITIALIZE_ERROR - initialization of the SOAP client failed, possibly because of an MSXML installation failure.
+80244002	SOAPCLIENT_OUTOFMEMORY - SOAP client failed because it ran out of memory.
+80244003	SOAPCLIENT_GENERATE_ERROR - SOAP client failed to generate the request.
+80244004	SOAPCLIENT_CONNECT_ERROR - SOAP client failed to connect to the server.
+80244005	SOAPCLIENT_SEND_ERROR - SOAP client failed to send a message for reasons of WU_E_WINHTTP_* error codes.
+80244006	SOAPCLIENT_SERVER_ERROR - SOAP client failed because there was a server error.
+80244007	SOAPCLIENT_SOAPFAULT - SOAP client failed because there was a SOAP fault for reasons of WU_E_PT_SOAP_* error codes.
+80244008	SOAPCLIENT_PARSEFAULT_ERROR - SOAP client failed to parse a SOAP fault.
+80244009	SOAPCLIENT_READ_ERROR - SOAP client failed while reading the response from the server.
+8024400A	SOAPCLIENT_PARSE_ERROR - SOAP client failed to parse the response from the server.
+8024400B	SOAP_E_VERSION_MISMATCH - SOAP client found an unrecognizable namespace for the SOAP envelope.
+8024400C	SOAP_E_MUST_UNDERSTAND - SOAP client was unable to understand a header.
+8024400D	SOAP_E_CLIENT - SOAP client found the message was malformed; fix before resending.
+8024400E	SOAP_E_SERVER - The SOAP message could not be processed due to a server error; resend later.
+8024400F	There was an unspecified Windows Management Instrumentation (WMI) error.
+80244010	The number of round trips to the server exceeded the maximum limit.
+80244011	WUServer policy value is missing in the registry.
+80244012	Initialization failed because the object was already initialized.
+80244013	The computer name could not be determined.
+80244015	The reply from the server indicates that the server was changed or the cookie was invalid; refresh the state of the internal cache and retry.
+80244016	HTTP status 400 - the server could not process the request due to invalid syntax.
+80244017	HTTP status 401 - the requested resource requires user authentication.
+80244018	HTTP status 403 - server understood the request, but declined to fulfill it.
+80244019	HTTP status 404 - the server cannot find the requested URI (Uniform Resource Identifier).
+8024401A	HTTP status 405 - the HTTP method is not allowed.
+8024401B	HTTP status 407 - proxy authentication is required.
+8024401C	HTTP status 408 - the server timed out waiting for the request.
+8024401D	HTTP status 409 - the request was not completed due to a conflict with the current state of the resource.
+8024401E	HTTP status 410 - requested resource is no longer available at the server.
+8024401F	HTTP status 500 - an error internal to the server prevented fulfilling the request.
+80244020	HTTP status 501 - server does not support the functionality required to fulfill the request.
+80244021	HTTP status 502 - the server, while acting as a gateway or proxy, received an invalid response from the upstream server it accessed in attempting to fulfill the request.
+80244022	HTTP status 503 - the service is temporarily overloaded.
+80244023	HTTP status 504 - the request was timed out waiting for a gateway.
+80244024	HTTP status 505 - the server does not support the HTTP protocol version used for the request.
+80244025	Operation failed due to a changed file location; refresh internal state and resend.
+80244026	Operation failed because Windows Update Agent does not support registration with a non-WSUS server.
+80244027	The server returned an empty authentication information list.
+80244028	Windows Update Agent was unable to create any valid authentication cookies.
+80244029	A configuration property value was wrong.
+8024402A	A configuration property value was missing.
+8024402B	The HTTP request could not be completed and the reason did not correspond to any of the WU_E_PT_HTTP_* error codes.
+8024402C	ERROR_WINHTTP_NAME_NOT_RESOLVED - the proxy server or target server name cannot be resolved.
+8024402D	The server is shedding load.
+8024402E	Windows Update Agent is enforcing honoring the service load shedding interval.
+8024502D	Windows Update Agent failed to download a redirector cabinet file with a new redirectorId value from the server during the recovery.
+8024502E	A redirector recovery action did not complete because the server is managed.
+8024402F	External cab file processing completed with some errors. (Confirm that download.windowsupdate.com and www.download.windowsupdate.com aren't being blocked by a firewall.)
+80244030	The external cab processor initialization did not complete.
+80244031	The format of a metadata file was invalid.
+80244032	External cab processor found invalid metadata.
+80244033	The file digest could not be extracted from an external cab file.
+80244034	An external cab file could not be decompressed.
+80244035	External cab processor was unable to get file locations.
+80240436	The server does not support category-specific search; Full catalog search has to be issued instead.
+80240437	There was a problem authorizing with the service.
+80240438	There is no route or network connectivity to the endpoint.
+80240439	The data received does not meet the data contract expectations.
+8024043A	The url is invalid.
+8024043B	Unable to load NWS runtime.
+8024043C	The proxy auth scheme is not supported.
+8024043D	The requested service property is not available.
+8024043E	The endpoint provider plugin requires online refresh.
+8024043F	A URL for the requested service endpoint is not available.
+80240440	The connection to the service endpoint died.
+80240441	The operation is invalid because protocol talker is in an inappropriate state.
+80240442	The object is in a faulted state due to a previous error.
+80240443	The operation would lead to numeric overflow.
+80240444	The operation was aborted.
+80240445	The operation was abandoned.
+80240446	A quota was exceeded.
+80240447	The information was not available in the specified language.
+80240448	The address is already being used.
+80240449	The address is not valid for this context.
+8024044A	Unrecognized error occurred in the Windows Web Services framework.
+8024044B	A security operation failed in the Windows Web Services framework.
+80244100	The client is data boundary restricted and needs to talk to a restricted endpoint.
+80244101	The client hit an error in retrieving AAD device ticket.
+80244FFF	A communication error not covered by another WU_E_PT_* error code.
+80245001	The redirector XML document could not be loaded into the DOM class.
+80245002	The redirector XML document is missing some required information.
+80245003	The redirectorId in the downloaded redirector cab is less than in the cached cab.
+80245004	The service ID is not supported in the service environment.
+80245005	The response from the redirector server had an unsupported content type.
+80245006	The response from the redirector server had an error status or was invalid.
+80245008	The maximum number of name value pairs was exceeded by the attribute provider.
+80245009	The name received from the attribute provider was invalid.
+8024500A	The value received from the attribute provider was invalid.
+8024500B	There was an error in connecting to or parsing the response from the Service Locator Service redirector server.
+8024500C	Connections to the redirector server are disallowed by managed policy.
+8024500D	The redirector would go online but is disallowed by caller configuration.
+802450FF	The redirector failed for reasons not covered by another WU_E_REDIRECTOR_* error code.
+80245101	Verification of the servicing engine package failed.
+80245102	Verification of a servicing package failed.
+80245103	Verification of the staged engine failed.
+80245104	Verification of a staged payload failed.
+80245105	An internal error occurred where the servicing action was not found.
+80245106	There was a parse error in the service environment response.
+80245107	A downloaded file failed an integrity check.
+80245108	No engine was provided by the server-initiated healing server response.
+80245109	Post-reboot install failed.
+8024510A	There were pending reboot actions, but cached SLS response was not found post-reboot.
+8024510B	Parsing command line arguments failed.
+8024510C	Security check failed.
+8024510D	PPL check failed.
+8024510E	Execution was disabled by policy.
+8024510F	A standard exception was caught.
+80245110	A non-standard exception was caught.
+80245111	The server-initiated healing engine encountered an exception not covered by another WU_E_SIH_* error code.
+80245112	You are running SIH Client with cmd not supported on your platform.
+80245113	Another SIH Client is already running.
+80245114	Disable DNS resiliency feature per service configuration.
+802451FF	There was a failure for reasons not covered by another WU_E_SIH_* error code.
+80246001	A download manager operation could not be completed because the requested file does not have a URL.
+80246002	A download manager operation could not be completed because the file digest was not recognized.
+80246003	A download manager operation could not be completed because the file metadata requested an unrecognized hash algorithm.
+80246004	An operation could not be completed because a download request is required from the download handler.
+80246005	A download manager operation could not be completed because the network connection was unavailable.
+80246006	A download manager operation could not be completed because the version of Background Intelligent Transfer Service (BITS) is incompatible.
+80246007	The update has not been downloaded.
+80246008	A download manager operation failed because the download manager was unable to connect the Background Intelligent Transfer Service (BITS).
+80246009	A download manager operation failed because there was an unspecified Background Intelligent Transfer Service (BITS) transfer error.
+8024600A	A download must be restarted because the location of the source of the download has changed.
+8024600B	A download must be restarted because the update content changed in a new revision.
+8024600C	A download failed because the current network limits downloads by update size for the update service.
+8024600E	The download failed because the client was denied authorization to download the content.
+8024600F	The download failed because the user token associated with the BITS job no longer exists.
+80246010	The sandbox directory for the downloaded update was not found.
+80246011	The downloaded update has an unknown file path.
+80246012	One or more of the files for the downloaded update is missing.
+80246013	An attempt was made to access a downloaded update that has already been removed.
+80246014	Windows Update couldn't find a needed portion of a downloaded update's file.
+80246016	The download failed because the client was denied authorization to download the content due to no user logged on.
+80246017	The download failed because the local user was denied authorization to download the content.
+80246018	The download failed because the domain user was denied authorization to download the content.
+80246019	The download failed because the MSA account associated with the user was denied authorization to download the content.
+8024601A	The download will be continued by falling back to BITS to download the content.
+8024601B	Another caller has requested download to a different volume.
+8024601C	The hash of the update's sandbox does not match the expected value.
+8024601D	The hard reserve id specified conflicts with an id from another caller.
+8024601E	The update has to be downloaded via DO.
+8024601F	Windows Update only supports one download type per update at one time. The download failure is by design here since the same update with different download type is operating. Please try again later.
+80246FFF	There was a download manager error not covered by another WU_E_DM_* error code.
+80247001	An operation could not be completed because the scan package was invalid.
+80247002	An operation could not be completed because the scan package requires a greater version of the Windows Update Agent.
+80247003	An invalid event payload was specified.
+80247004	The size of the event payload submitted is invalid.
+80247005	The service is not registered.
+80247FFF	Search using the scan package failed.
+8024F001	The event cache file was defective.
+8024F002	The XML in the event namespace descriptor could not be parsed.
+8024F003	The XML in the event namespace descriptor could not be parsed.
+8024F004	The server rejected an event because the server was too busy.
+8024F005	The specified callback cookie is not found.
+8024FFFF	There was a reporter error not covered by another error code.
+80247100	No operation was required by update metadata verification.
+80247101	The binary encoding of metadata config data was invalid.
+80247102	Unable to fetch required configuration for metadata signature verification.
+80247104	A metadata verification operation failed due to an invalid parameter.
+80247105	A metadata verification operation failed due to reasons not covered by another error code.
+80247106	None of the update metadata had verification data, which may be disabled on the update server.
+80247107	The fragment signing configuration used for verifying update metadata signatures was bad.
+80247108	There was an unexpected operational failure while parsing fragment signing configuration.
+80247120	Required xml data was missing from configuration.
+80247121	Required fragmentsigning data was missing from xml configuration.
+80247122	Required mode data was missing from xml configuration.
+80247123	An invalid metadata enforcement mode was detected.
+80247124	An invalid timestamp validity window configuration was detected.
+80247125	Required leaf certificate data was missing from xml configuration.
+80247126	Required intermediate certificate data was missing from xml configuration.
+80247127	Required leaf certificate id attribute was missing from xml configuration.
+80247128	Required certificate base64CerData attribute was missing from xml configuration.
+80247140	The metadata for an update was found to have a bad or invalid digital signature.
+80247141	An unsupported hash algorithm for metadata verification was specified.
+80247142	An error occurred during an update's metadata signature verification.
+80247150	An failure occurred while verifying trust for metadata signing certificate chains.
+80247151	A metadata signing certificate had an untrusted certificate chain.
+80247160	An expected metadata timestamp token was missing.
+80247161	A metadata Timestamp token failed verification.
+80247162	A metadata timestamp token signer certificate chain was untrusted.
+80247163	A metadata signature timestamp token was no longer within the validity window.
+80247164	A metadata timestamp token failed signature validation
+80247165	A metadata timestamp token certificate failed certificate chain verification.
+80247166	A failure occurred when refreshing a missing timestamp token from the network.
+80247167	All update metadata verification timestamp tokens from the timestamp token cache are invalid.
+80247168	No update metadata verification timestamp tokens exist in the timestamp token cache.
+80247169	An error occurred during cache lookup of update metadata verification timestamp token.
+8024717E	An metadata timestamp token validity window failed unexpectedly due to reasons not covered by another error code.
+8024717F	An metadata timestamp token verification operation failed due to reasons not covered by another error code.
+80247180	An expected metadata signing certificate was missing.
+80247181	The transport encoding of a metadata signing leaf certificate was malformed.
+80247182	The transport encoding of a metadata signing intermediate certificate was malformed.
+80247183	A metadata certificate chain was untrusted.
+80248000	An operation failed because Windows Update Agent is shutting down.
+80248001	An operation failed because the data store was in use.
+80248002	The current and expected states of the data store do not match.
+80248003	The data store is missing a table.
+80248004	The data store contains a table with unexpected columns.
+80248005	A table could not be opened because the table is not in the data store.
+80248006	The current and expected versions of the data store do not match.
+80248007	The information requested is not in the data store.
+80248008	The data store is missing required information or has a NULL in a table column that requires a non-null value.
+80248009	The data store is missing required information or has a reference to missing license terms, file, localized property or linked row.
+8024800A	The update was not processed because its update handler could not be recognized.
+8024800B	The update was not deleted because it is still referenced by one or more services.
+8024800C	The data store section could not be locked within the allotted time.
+8024800D	The category was not added because it contains no parent categories and is not a top-level category itself.
+8024800E	The row was not added because an existing row has the same primary key.
+8024800F	The data store could not be initialized because it was locked by another process.
+80248010	The data store is not allowed to be registered with COM in the current process.
+80248011	Could not create a data store object in another process.
+80248013	The server sent the same update to the client with two different revision IDs.
+80248014	An operation did not complete because the service is not in the data store.
+80248015	An operation did not complete because the registration of the service has expired.
+80248016	A request to hide an update was declined because it is a mandatory update or because it was deployed with a deadline.
+80248017	A table was not closed because it is not associated with the session.
+80248018	A table was not closed because it is not associated with the session.
+80248019	A request to remove the Windows Update service or to unregister it with Automatic Updates was declined because it is a built-in service and/or Automatic Updates cannot fall back to another service.
+8024801A	A request was declined because the operation is not allowed.
+8024801B	The schema of the current data store and the schema of a table in a backup XML document do not match.
+8024801C	The data store requires a session reset; release the session and retry with a new session.
+8024801D	A data store operation did not complete because it was requested with an impersonated identity.
+8024801E	An operation against update metadata did not complete because the data was never received from server.
+8024801F	An operation against update metadata did not complete because the data was available but not loaded from datastore.
+80248020	A data store operation did not complete because no such update revision is known.
+80248021	A data store operation did not complete because no such update is known.
+80248022	A data store operation did not complete because an update's EULA information is missing.
+80248023	A data store operation did not complete because a service's information is missing.
+80248024	A data store operation did not complete because a service's synchronization information is missing.
+80248025	A data store operation did not complete because a timer's information is missing.
+80248026	A data store operation did not complete because a download's information is missing.
+80248027	A data store operation did not complete because a file's information is missing.
+80248028	A data store operation did not complete because a download job's information is missing.
+80248029	A data store operation did not complete because a service's timestamp information is missing.
+80248FFF	A data store error not covered by another WU_E_DS_* code.
+80249001	Parsing of the rule file failed.
+80249002	Failed to get the requested inventory type from the server.
+80249003	Failed to upload inventory result to the server.
+80249004	There was an inventory error not covered by another error code.
+80249005	A WMI error occurred when enumerating the instances for a particular class.
+8024A000	Automatic Updates was unable to service incoming requests.
+8024A002	The old version of the Automatic Updates client has stopped because the WSUS server has been upgraded.
+8024A003	The old version of the Automatic Updates client was disabled.
+8024A004	Automatic Updates was unable to process incoming requests because it was paused.
+8024A005	No unmanaged service is registered with AU.
+8024A006	The default service registered with AU changed during the search.
+8024A007	A reboot is in progress.
+8024A008	Automatic Updates can't process incoming requests while Windows Welcome is running.
+8024AFFF	An Automatic Updates error not covered by another WU_E_AU * code.
+8024B001	The task is currently in progress.
+8024B002	The operation cannot be completed since the task status is currently disabled.
+8024B003	The operation cannot be completed since the task is not yet started.
+8024B004	The task was stopped and needs to be run again to complete.
+8024B005	Cannot cancel a non-scheduled install.
+8024B101	Hardware capability meta data was not found after a sync with the service.
+8024B102	Hardware capability meta data was malformed and/or failed to parse.
+8024B103	Unable to complete action due to WMI dependency, which isn't supported on this platform.
+8024B104	Merging of the update is not allowed
+8024B105	Installing merged updates only. So skipping non mergeable updates.
+8024B201	SLS response returned invalid revision number.
+8024B301	File signature validation fails to find valid RSA signature on infrastructure payload.
+8024B302	File signature validation fails to find valid ECC signature on infrastructure payload.
+8024B303	The subject is not trusted by WU for the specified action.
+8024B304	Unknown trust provider for WU.8024C001	A driver was skipped.
+8024C002	A property for the driver could not be found. It may not conform with required specifications.
+8024C003	The registry type read for the driver does not match the expected type.
+8024C004	The driver update is missing metadata.
+8024C005	The driver update is missing a required attribute.
+8024C006	Driver synchronization failed.
+8024C007	Information required for the synchronization of applicable printers is missing.
+8024C008	After installing a driver update, the updated device has reported a problem.
+8024CFFF	A driver error not covered by another WU_E_DRV_* code.
+8024D001	Windows Update Agent could not be updated because an INF file contains invalid information.
+8024D002	Windows Update Agent could not be updated because the wuident.cab file contains invalid information.
+8024D003	Windows Update Agent could not be updated because of an internal error that caused setup initialization to be performed twice.
+8024D004	Windows Update Agent could not be updated because setup initialization never completed successfully.
+8024D005	Windows Update Agent could not be updated because the versions specified in the INF do not match the actual source file versions.
+8024D006	Windows Update Agent could not be updated because a WUA file on the target system is newer than the corresponding source file.
+8024D007	Windows Update Agent could not be updated because regsvr32.exe returned an error.
+8024D008	An update to the Windows Update Agent was skipped because previous attempts to update have failed.
+8024D009	An update to the Windows Update Agent was skipped due to a directive in the wuident.cab file.
+8024D00A	Windows Update Agent could not be updated because the current system configuration is not supported.
+8024D00B	Windows Update Agent could not be updated because the system is configured to block the update.
+8024D00C	Windows Update Agent could not be updated because a restart of the system is required.
+8024D00D	Windows Update Agent setup is already running.
+8024D00E	Windows Update Agent setup package requires a reboot to complete installation.
+8024D00F	Windows Update Agent could not be updated because the setup handler failed during execution.
+8024D010	Windows Update Agent could not be updated because the registry contains invalid information.
+8024D011	Windows Update Agent must be updated before search can continue.
+8024D012	Windows Update Agent must be updated before search can continue. An administrator is required to perform the operation.
+8024D013	Windows Update Agent could not be updated because the server does not contain update information for this version.
+8024D014	Windows Update Agent is successfully updated, but a reboot is required to complete the setup.
+8024D015	Windows Update Agent is successfully updated, but a reboot is required to complete the setup.
+8024D016	Windows Update Agent could not be updated because of an unknown error.
+8024DFFF	Windows Update Agent could not be updated because of an error not covered by another WU_E_SETUP_* error code.
+8024E001	An expression evaluator operation could not be completed because an expression was unrecognized.
+8024E002	An expression evaluator operation could not be completed because an expression was invalid.
+8024E003	An expression evaluator operation could not be completed because an expression contains an incorrect number of metadata nodes.
+8024E004	An expression evaluator operation could not be completed because the version of the serialized expression data is invalid.
+8024E005	The expression evaluator could not be initialized.
+8024E006	An expression evaluator operation could not be completed because there was an invalid attribute.
+8024E007	An expression evaluator operation could not be completed because the cluster state of the computer could not be determined.
+8024EFFF	There was an expression evaluator error not covered by another WU_E_EE_* error code.
