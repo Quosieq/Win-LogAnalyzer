@@ -76,14 +76,14 @@ function CheckLog {
                 
                 # First try the error code map
                 if ($errorCodeMap.ContainsKey($errorCode)) {
-                    $decodedMsg = "   Error Code: $errorCode `n   Message: $($errorCodeMap[$errorCode])"
+                    $decodedMsg = "   Error Code: $errorCode `n  Error Message: $($errorCodeMap[$errorCode])`n"
                 }
                 # Fall back to Win32Exception
                 else {
                     try {
                         $errorInt = [Convert]::ToInt32($errorCode.Replace("0x", ""), 16)
                         $errorMsg = [System.ComponentModel.Win32Exception]$errorInt
-                        $decodedMsg = "   Error Code: $errorCode `n   Message: $($errorMsg.Message)"
+                        $decodedMsg = "   Error Code: $errorCode `n   Error Message: $($errorMsg.Message)`n"
                     }
                     catch {
                         $decodedMsg = "   [Could not decode error: $errorCode]"
@@ -164,7 +164,7 @@ do {
                 
                 foreach ($log in $logs) {
                     Write-Host "`nProcessing: $($log.Name)" -ForegroundColor Yellow
-                    $hasErrors = Check-Log -Directory $log.FullName -Lines $ErrorCount -BatchMode
+                    $hasErrors = CheckLog -Directory $log.FullName -Lines $ErrorCount -BatchMode
                     if ($hasErrors) { $errorCountTotal++ }
                     $processedCount++
                 }
@@ -211,7 +211,7 @@ do {
             } while (-not ($ErrorCount -match '^\d+$'))
         }
 
-        Check-Log -Directory $LogPath -Lines $ErrorCount
+        CheckLog -Directory $LogPath -Lines $ErrorCount
     }
 
     if (-not $AutoExit -and -not $AnalyzeAll) {

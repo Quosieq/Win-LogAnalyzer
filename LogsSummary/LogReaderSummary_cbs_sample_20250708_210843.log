@@ -1,4 +1,0 @@
-﻿2023-05-15 09:15:24, Error                 CBS    Failed to resolve package 'Package_for_KB5005565' [HRESULT = 0x80073712]
-   Summary: 0x80073712 - Magazyn składników jest uszkodzony
-2023-05-15 09:15:26, Error                 CBS    Failed to create temporary directory. [HRESULT = 0x80070005]
-   Summary: 0x80070005 - Odmowa dostępu

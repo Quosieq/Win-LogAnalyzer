@@ -1,5 +1,0 @@
-﻿2023-05-15 08:30:46, Info                  DISM   DISM Provider Store: PID=1234 TID=5678 Failed to load the provider from location C:\Windows\System32\Dism\InvalidProvider.dll. Will skip this provider. - CDISMProviderStore::Internal_GetProvider
-2023-05-15 08:30:47, Error                 DISM   DISM Package Manager: PID=1234 TID=5678 Failed to open package file "C:\packages\update1.cab" [HRESULT = 0x800F0805]
-   Summary: 0x800F0805 - The update package was not a valid CSI update
-2023-05-15 08:30:49, Error                 DISM   DISM Image Session: PID=1234 TID=5678 Failed to mount Windows image from "C:\images\install.wim" [HRESULT = 0x800F081F]
-   Summary: 0x800F081F - Source for package or file not found, ResolveSource() unsuccessful
