@@ -1,0 +1,6 @@
+2023-05-15 08:30:45, Info                  DISM   DISM Provider Store: PID=1234 TID=5678 Found and Initialized the Provider Folder. - CDISMProviderStore::Internal_InitializeProviderFolder
+2023-05-15 08:30:46, Info                  DISM   DISM Provider Store: PID=1234 TID=5678 Failed to load the provider from location C:\Windows\System32\Dism\InvalidProvider.dll. Will skip this provider. - CDISMProviderStore::Internal_GetProvider
+2023-05-15 08:30:47, Error                 DISM   DISM Package Manager: PID=1234 TID=5678 Failed to open package file "C:\packages\update1.cab" [HRESULT = 0x800F0805]
+2023-05-15 08:30:48, Warning               DISM   DISM OS Provider: PID=1234 TID=5678 Skipping invalid registry key. - CDISMOSServiceManager::CheckOSVersion
+2023-05-15 08:30:49, Error                 DISM   DISM Image Session: PID=1234 TID=5678 Failed to mount Windows image from "C:\images\install.wim" [HRESULT = 0x800F081F]
+2023-05-15 08:30:50, Info                  DISM   DISM Logging: Terminating logging operations.

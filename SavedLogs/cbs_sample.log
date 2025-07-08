@@ -1,0 +1,6 @@
+2023-05-15 09:15:22, Info                  CBS    Starting TrustedInstaller initialization.
+2023-05-15 09:15:23, Info                  CBS    Lock: New lock added: CCbsWorker(0), level: 5, total lock:1
+2023-05-15 09:15:24, Error                 CBS    Failed to resolve package 'Package_for_KB5005565' [HRESULT = 0x80073712]
+2023-05-15 09:15:25, Warning               CBS    Warning: Registry value not found. Service may not be installed. [HRESULT = 0x80070002]
+2023-05-15 09:15:26, Error                 CBS    Failed to create temporary directory. [HRESULT = 0x80070005]
+2023-05-15 09:15:27, Info                  CBS    Ending TrustedInstaller processing.
